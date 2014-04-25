@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>Bonjour.</pattern>
+	<template>Bonjour, En quoi je peux t’aider?</template>
+</category>
+<category>
+	<pattern>Salut.</pattern>
+	<template>
+		<srai>Bonjour.</srai>
+	</template>
+</category>
+<category>
+	<pattern>Je m'appele *</pattern>
+	<template>Salut <star index="1"/></template>
+<category>
+	<pattern>Comment t'appelles tu ?</pattern>
+	<template>Je m’appelle Mignon.</template>
+</category>
+<category>
+	<pattern>Quel est ton nom ?</pattern>
+	<template>
+		<srai>Comment t'appelles tu ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Quel est le nom de votre école ?</pattern>
+	<template>L’école s’appelle EPSI</template>
+</category>
+<category>
+	<pattern>Qu'est ce que l'EPSI ?</pattern>
+	<template>L'EPSI est une école informatique multi campus, présente à Amiens, Arras, Bordeaux, Grenoble, Lille, Lyon, Montpellier, Nantes et Paris. </template>
+</category>
+<category>
+	<pattern>C’est quoi l’EPSI ?</pattern>
+	<template>
+		<srai>Qu'est ce que l'EPSI ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Que signifie EPSI ?</pattern>
+	<template>EPSI signifie “Ecole Privée des Sciences Informatiques”.</template>
+</category>
+<category>
+	<pattern>Puis-je intégrer l'EPSI ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Peut-on intégrer l'EPSI en cours de cursus ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Comment intégrer l'EPSI ?</pattern>
+	<template>Téléchargez sur notre site ou demandez votre dossier de candidature. Retournez-le à l’EPSI de votre choix. Dès réception de votre dossier, nous vous proposerons de participer à une demi-journée de sélection au cours de laquelle vos connaissances et compétences seront testées, puis vous serez reçu pour un entretien de motivation. Nous nous engageons à vous donner une réponse personnalisée dans les cinq jours après notre rendez-vous.</template>
+</category>
+<category>
+	<pattern>Je voudrais intégrer l'EPSI.</pattern>
+	<template>
+		<srai>Comment intégrer l'EPSI ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Comment s'inscrire ?</pattern>
+	<template>
+		<srai>Comment intégrer l'EPSI ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Ou puis-je m'inscrire ?</pattern>
+	<template>
+		<srai>Comment intégrer l'EPSI ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Quelles sont les conditions pour être accepté à l'EPSI ?</pattern>
+	<template>Il faut avoir le diplôme nécessaire à l’admission et contacter l’équipe pédagogique afin de passer une session de recrutement</template>
+</category>
+<category>
+	<pattern>Avez-vous un campus ?</pattern>
+	<template>L’EPSI a un campus sur le parc Euromédecine, au nord-ouest de la ville dans une zone d’activité intense et dynamique.</template>
+</category>
+<category>
+	<pattern>Comment accéder a l'EPSI ?</pattern>
+	<template>
+		<srai>Avez-vous un campus ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Ou se trouve l'EPSI ?</pattern>
+	<template>
+		<srai>Avez-vous un campus ?</srai>
+	</template></category>
+<category>
+	<pattern>L'accès à votre école est il facile ?</pattern>
+	<template>Oui ! Nous sommes en périphérie de Montpellier, proche de l’UM2. Nous disposons d’un parking privé pour que les étudiants puisse se garer.</template>
+</category>
+<category>
+	<pattern>Y a t-il  des transports qui nous permet d’accéder à l’école ?</pattern>
+	<template>La ligne 6 de bus passe à une centaine de mètre de l’école. L’école est également accessible depuis le tramway, il faudra prévoir 10 minute de marche.</template>
+</category>
+<category>
+	<pattern>Quel est le prix de l'inscription ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Combien coûte l'inscription ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Avez-vous des logements pour étudiant ?</pattern>
+	<template>Nous ne gérons pas le logement de nos étudiants. Mais nous avons des partenariats afin de vous aider dans vos recherche !</template>
+</category>
+<category>
+	<pattern>Avez-vous une cantine ou un restaurant universitaire ?</pattern>
+	<template>L’école dispose d’une salle équipée de micro-ondes mis à disposition des élèves qui souhaitent déjeuner sur place, ainsi que de distributeurs de boissons chaudes, froides et de sandwichs. Un restaurant universitaire se trouve à proximité de l’EPSI : Restaurant Universitaire Triolet.</template>
+</category>
+<category>
+	<pattern>Peut-on manger à l'EPSI ? </pattern>
+	<template>
+		<srai>Avez-vous une cantine ou un restaurant universitaire ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>L'EPSI possède t'elle des machines à café ?</pattern>
+	<template>
+		<srai>Avez-vous une cantine ou un restaurant universitaire ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Quel est le nom de votre directeur ?</pattern>
+	<template>La directrice de l’EPSI Montpellier est Mme Malezieux.</template>
+</category>
+<category>
+	<pattern>Quel est le nom de votre directrice ?</pattern>
+	<template>
+		<srai>Quel est le nom de votre directeur ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>L’EPSI est-il une école privée ou public ?</pattern>
+	<template>Comme son annagramme l’indique (Ecole Privé des Sciences Informatiques), l’EPSI est une école privé</template>
+</category>
+<category>
+	<pattern>Proposez vous d'autres activités ?</pattern>
+	<template>L’ecole propose propose d’autres activitées notamment par le BDE mais egalement par le club jeux video, le club apple et developpement mobile ainsi que le club microsoft/imaginecup</template>
+</category>
+<category>
+	<pattern>Y a-t-il des belles filles à l’école ?</pattern>
+	<template>Il y a peu de filles à l’école mais elle réussisse globalement mieux que les garçons.</template>
+</category>
+<category>
+	<pattern>Quel est le pourcentage de fille dans votre école ?</pattern>
+	<template>
+		<srai>Y a-t-il des belles filles à l’école ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Existe t'il des tests d'entrées pour l'EPSI ?</pattern>
+	<template>En effet, chaque candidat est testé individuellement autour de trois thèmes : une épreuve d’anglais, une épreuve de logique, une épreuve de culture générale. Ce test est d'une durée de 1h30. Le jury va ensuite évaluer pour chaque candidat sa motivation et son potentiel à réussir une formation d’ingénierie informatique. Cet entretien est d'une durée de 0h30 environ.</template>
+</category>
+<category>
+	<pattern>Qu'apprends t'on à l'EPSI ?</pattern>
+	<template>A l’EPSI, vous apprendrez les fondamentaux de l’informatique. Comment développer des applications et des sites web, conduire des projet et également de la gestion d’entreprise.</template>
+</category>
+<category>
+	<pattern>Quels sont les différents cursus ?</pattern>
+	<template>Le Bachelor informatique, présentant un titre certifié de niveau II (Bac+3). Les élèves peuvent présenter le BTS Informatique(Services Informatiques aux Organisations) pour sécuriser leur parcours. Le Programme Ingénierie Second cycle, sanctionné par le titre de l’EPSI Niveau I (Bac+5).</template>
+</category>
+<category>
+	<pattern>Quels sont les cursus de votre école ?</pattern>
+	<template>
+		<srai>Quels sont les différents cursus ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Quels sont les diplômes de votre école ?</pattern>
+	<template>
+		<srai>Quels sont les différents cursus ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Quel est le coût de la formation ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Quel est le coût de la formation * ? </pattern>
+	<think>
+		<set name="annee"><star/></set>
+		<template>
+			<condition name="annee">
+				<li value="b1"></li>
+				<li value="b2"></li>
+				<li value="b3"></li>
+				<li value="i4"></li>
+				<li value="i5"></li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Combien ça coute ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Combien côute la *ième année à l'EPSI ? </pattern>
+	<think>
+		<set name="annee"><star/></set>
+		<template>
+			<condition name="annee">
+				<li value="b1"></li>
+				<li value="b2"></li>
+				<li value="b3"></li>
+				<li value="i4"></li>
+				<li value="i5"></li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Quel est le prix ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Quelles sont les matières de la *ième année ?</pattern>
+	<think>
+		<set name="annee"><star/></set>
+		<template>
+			<condition name="annee">
+				<li value="b1"></li>
+				<li value="b2"></li>
+				<li value="b3"></li>
+				<li value="i4">Pour l’année I4 les matières sont UE Génie logiciel, UE Agilité - Méthode SCRUM, UE Web services, UE Intelligence artificielle, UE Systèmes, UE Réseaux, UE Développement d’applications, UE Anglais, UE Communication.</li>
+				<li value="i5">Pour l’année I5 les matières sont UE Gestion de projets, UE Architecture des S.I. – BPM (Business Processus Management), UE Management des S.I., UE Management de la sécurité des S.I., UE Management des ressources humaines, UE Management du développement durable / RSE, UE Anglais (préparation TOEIC), UE Droit informatique, UE Business intelligence, UE Génie logiciel, UE Réseaux et télécommunications, UE Systèmes</li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Quels sont les matières de l’année [n] ?</pattern>
+	<think>
+		<set name="annee"><star/></set>
+		<template>
+			<condition name="annee">
+				<li value="b1"></li>
+				<li value="b2"></li>
+				<li value="b3"></li>
+				<li value="i4">Pour l’année I4 les matières sont UE Génie logiciel, UE Agilité - Méthode SCRUM, UE Web services, UE Intelligence artificielle, UE Systèmes, UE Réseaux, UE Développement d’applications, UE Anglais, UE Communication.</li>
+				<li value="i5">Pour l’année I5 les matières sont UE Gestion de projets, UE Architecture des S.I. – BPM (Business Processus Management), UE Management des S.I., UE Management de la sécurité des S.I., UE Management des ressources humaines, UE Management du développement durable / RSE, UE Anglais (préparation TOEIC), UE Droit informatique, UE Business intelligence, UE Génie logiciel, UE Réseaux et télécommunications, UE Systèmes</li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Puis-je recevoir de la documentation pour l'année * ?</pattern>
+	<template>Bien entendu, voici un lien vers notre brochure qui vous expliquera en détails la formation que l’on vous propose</template>
+</category>
+<category>
+	<pattern>Combien d'étudiants y-a-t'il par classe ?</pattern>
+	<template>Il y a à peu près 20/25 étudiants par classe.</template>
+</category>
+<category>
+	<pattern>Est-ce que l'on fait des projets en cours ?</pattern>
+	<template>Tout au long de votre cursus, des projets tuteurés vous seront proposés afin de vous habituez à la conduite de projet.</template>
+</category>
+<category>
+	<pattern>Existe t'il des options ?</pattern>
+	<template>Vous aurez le choix entre les spécialisations développement ou réseau.</template>
+</category>
+<category>
+	<pattern>Quel sont les différences entre les options développement et réseau ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Quel professeur enseigne la matière * ?</pattern>
+	<think>
+		<set name="matiere"><star/></set>
+		<template>
+			<condition name="matiere">
+				<li value="Anglais">Benkoussa</li>
+				<li value="Intelligence artificielle">Krit</li>
+				<li value="Communication">Camus</li>
+				<li value="Mobile">Britto</li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Quel est le nom du professeur de * ?</pattern>
+	<think>
+		<set name="matiere"><star/></set>
+		<template>
+			<condition name="matiere">
+				<li value="Anglais">Benkoussa</li>
+				<li value="Intelligence artificielle">Krit</li>
+				<li value="Communication">Camus</li>
+				<li value="Mobile">Britto</li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Qu'est ce que * ?</pattern>
+	<think>
+		<set name="matiere"><star/></set>
+		<template>
+			<condition name="matiere">
+				<li value="Anglais">Preparation pour le toeic</li>
+				<li value="Intelligence artificielle"></li>
+				<li value="Communication"></li>
+				<li value="Mobile"></li>
+			</condition>
+		</template>
+	</think>
+</category>
+<category>
+	<pattern>Pourquoi je devrais choisir l'EPSI ?</pattern>
+	<template>C’est une école dynamique et formatrice reconnue par de grands groupes tels que Capgemini, Dell, Sanofi...</template>
+</category>
+<category>
+	<pattern>Quel est le taux de réussite ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Quel est le niveau des diplomes ?</pattern>
+	<template>L’enseignement de l’EPSI vous permet d’obtenir des diplomes d’état (BAC+2, BAC+3, BAC+5)</template>
+</category>
+<category>
+	<pattern>Quel est le niveau des certificats ?</pattern>
+	<template>
+		<srai>Quel est le niveau des diplomes ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Comment financer mes études ?</pattern>
+	<template>Voici trois point que nous pourrions etudier avec vous dans le but de trouver un moyen de financer vos etudes : Un investissement sur l’avenir : L’EPSI propose des solutions complémentaires et diversifiées pour favoriser le financement de votre scolarité. Activité professionnelle : L’exercice d’une activité professionnelle rémunérée durant la scolarité, dans le cadre d’un contrat d’alternance, d’un stage rémunéré, voire d’un CDD, vous permet de financer tout ou partie de vos études. De nombreux étudiants sont également embauchés pour leur premier emploi au début ou durant le stage applicatif de fin d’études de six mois. Prêt d’études : L’EPSI a conclu un partenariat bancaire pour vous permettre de financer vos études grâce à un taux préférentiel sur le Prêt Personnel Étudiant. Vous bénéficiez également d’offres privilégiées sur des produits et services bancaires</template>
+</category>
+<category>
+	<pattern>Comment peut-on financer l’école ?</pattern>
+	<template>
+		<srai>Comment financer mes études ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Peut-on avoir une bourse ?</pattern>
+	<template>
+		<srai>Comment financer mes études ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Proposez vous des formations par alternance ?</pattern>
+	<template>L’alternance à l’EPSI, c’est possible ! Pour répondre à la demande croissante des entreprises et des étudiants, l’EPSI propose un cursus en alternance. A partir de la 3ème année, les étudiants ont la possibilité d’alterner cours à l’EPSI et missions en entreprise pendant une année de formation. Véritable passeport de compétences, l’alternance est une formule qui permet d’allier la théorie à la pratique, de faciliter l’insertion professionnelle et de financer ses études.</template>
+</category>
+<category>
+	<pattern>Comment se déroule l'alternance ?</pattern>
+	<template>Il existe deux types de contrats : le contrat de professionnalisation et le contrat d’apprentissage.</template>
+</category>
+<category>
+	<pattern>Quels sont les types de contrats pour l'alternance ?</pattern>
+	<template>
+		<srai>Comment se déroule l'alternance ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>L’alternance, quels sont les contrats peut-on avoir avec les entreprises ?</pattern>
+	<template>
+		<srai>Comment se déroule l'alternance ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Qu'est ce qu'un le contrat de professionnalisation ? </pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Qu'est ce que le contrat d'apprentissage ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Est-ce que la formation de l'EPSI est reconnue par l'état ?</pattern>
+	<template>Oui, depuis 2013.</template>
+</category>
+<category>
+	<pattern>Quel est le salaire à l'embauche ?</pattern>
+	<template>Quel est le salaire ?</template>
+</category>
+<category>
+	<pattern>L’école est-elle a apprécié des entreprises ?</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>Quels sont les partenaires de votre école ?</pattern>
+	<template>Depuis 30 ans, l’école, a su créer des partenariats réguliers et durables avec les nombreuses entreprises de la région (IBM, DELL, Capgemini, CGI, La Poste, Schneider, Sanofi...).</template>
+</category>
+<category>
+	<pattern>Quels sont vos partenaires ?</pattern>
+	<template>
+		<srai>Quels sont les partenaires de votre école ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Avez vous un site web ?</pattern>
+	<template>Le site web de l’EPSI est accessible a l’adresse http://www.epsi.fr/</template>
+</category>
+<category>
+	<pattern>Quel est votre site web ?</pattern>
+	<template>
+		<srai>Avez vous un site web ?</srai>
+	</template>
+</category>
+<category>
+	<pattern>Comment contacter l'EPSI ?</pattern>
+	<template>Voici nos coordonées : 437 rue des Apothicaires, 34090 Montpellier, Tel : 04.67.04.20.01, Mail : info@montpellier.epsi.fr</template>
+</category>
+<category>
+	<pattern>Quel est votre adresse e-mail ?</pattern>
+	<template>L’adresse e-mail de l’EPSI est info@montpellier.epsi.fr</template>
+</category>
+<category>
+	<pattern>Quel est le numéro de téléphone de l'EPSI ?</pattern>
+	<template>Le numero de téléphone de l’EPSI est 04.67.04.20.01</template>
+</category>
+<category>
+	<pattern>Au revoir</pattern>
+	<template>Merci de votre visite.</template>
+</category>
+<category>
+	<pattern>Ciao</pattern>
+	<template>
+		<srai>Au revoir</srai>
+	</template>
+</category>
+<category>
+	<pattern>A bientot</pattern>
+	<template>
+		<srai>Au revoir</srai>
+	</template>
+</category>
+<category>
+	<pattern>Merci</pattern>
+	<template>
+		<srai>Au revoir</srai>
+	</template>
+</category>
+
+</aiml>
